@@ -17,12 +17,12 @@ export default {
                 text: 'DOCS',
                 link: '/en-us/docs/overview/what-is-seata.html',
             },
-            {
-                key: 'enterprise',
-                text: 'SEATA IN CLOUD',
-                link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
-                imgUrl: 'https://img.alicdn.com/imgextra/i4/O1CN01iksJGI1TOscjbXlOD_!!6000000002373-2-tps-30-30.png'
-            },
+            // {
+            //     key: 'enterprise',
+            //     text: 'SEATA IN CLOUD',
+            //     link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
+            //     imgUrl: 'https://img.alicdn.com/imgextra/i4/O1CN01iksJGI1TOscjbXlOD_!!6000000002373-2-tps-30-30.png'
+            // },
             {
                 key: 'solution',
                 text: 'SOLUTIONS',
@@ -30,31 +30,19 @@ export default {
                 imgUrl: 'https://img.alicdn.com/tfs/TB1esl_m.T1gK0jSZFrXXcNCXXa-200-200.png',
                 children: [{
                     key: 'gts',
-                    text: 'Distributed transaction solution',
-                    link: 'https://www.aliyun.com/aliware/txc?spm=seata-website.topbar.0.0.0'
+                    text: 'SEATA IN CLOUD',
+                    link: 'https://www.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
                 }, {
-                    key: 'micoservice',
-                    text: 'Microservice solutions',
-                    link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'msha',
-                    text: 'High-availability solution',
-                    link: 'https://www.aliyun.com/product/ahas?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'serverless',
-                    text: 'Serverless solution for miscoservices',
-                    link: 'https://cn.aliyun.com/product/aliware/sae?spm=seata-website.topbar.0.0.0'
-                },
-                {
-                    key: 'appas',
-                    text: 'PaaS solution',
-                    link: 'https://www.aliyun.com/product/edas?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'mesh',
-                    text: 'Service mesh solution',
-                    link: 'https://www.aliyun.com/product/servicemesh?spm=seata-website.topbar.0.0.0',
-                }
+                    key: 'sofa',
+                    text: 'SOFA distributed transaction',
+                    link: 'https://help.aliyun.com/document_detail/132903.html?spm=seata-website.topbar.0.0.0',
+                    }
                 ]
+            },
+            {
+                key: 'free',
+                text: 'FREE TIER',
+                link: 'https://free.aliyun.com/?searchKey=nacos&spm=seata-website.topbar.0.0.0',
             },
             {
                 key: 'developers',
@@ -62,9 +50,9 @@ export default {
                 link: '/en-us/docs/developers/developers_dev.html',
             },
             {
-                key: 'SummerCode2022',
-                text: 'SummerCode2022',
-                link: 'https://mp.weixin.qq.com/s/q6J-swbdWqZebuSiq2JDWg',
+                key: 'recruitment',
+                text: 'RECRUITMENT',
+                link: 'https://mp.weixin.qq.com/s/nvDmIJEuDaNEY3RfTA3UyA',
             },
             {
                 key: 'blog',
@@ -80,6 +68,16 @@ export default {
                 key: 'download',
                 text: 'DOWNLOAD',
                 link: '/en-us/blog/download.html',
+            },
+            {
+                key: 'console',
+                text: 'CONSOLE SAMPLE',
+                link: 'http://demo.seata.io',
+            },
+            {
+                key: 'change',
+                text: ' ',
+                link: '/zh-cn/index.html',
             }
         ],
         vision: {
@@ -118,9 +116,17 @@ export default {
                     text: 'Community',
                     link: '/en-us/community/index.html',
                 },
+                {
+                    text: 'Simplified Chinese',
+                    link: '/zh-cn/index.html',
+                },
+                {
+                    text: 'English',
+                    link: '/en-us/index.html',
+                },
             ],
         },
-        copyright: 'Copyright © 2022 Seata',
+        copyright: 'Copyright © 2023 Seata',
     },
     'zh-cn': {
         pageMenu: [
@@ -134,12 +140,12 @@ export default {
                 text: '文档',
                 link: '/zh-cn/docs/overview/what-is-seata.html',
             },
-            {
-                key: 'enterprise',
-                text: 'Seata企业版',
-                link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
-                imgUrl: 'https://img.alicdn.com/imgextra/i4/O1CN01iksJGI1TOscjbXlOD_!!6000000002373-2-tps-30-30.png'
-            },
+            // {
+            //     key: 'enterprise',
+            //     text: 'Seata企业版',
+            //     link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
+            //     imgUrl: 'https://img.alicdn.com/imgextra/i4/O1CN01iksJGI1TOscjbXlOD_!!6000000002373-2-tps-30-30.png'
+            // },
             {
                 key: 'solution',
                 text: '解决方案',
@@ -147,31 +153,19 @@ export default {
                 imgUrl: 'https://img.alicdn.com/tfs/TB1esl_m.T1gK0jSZFrXXcNCXXa-200-200.png',
                 children: [{
                     key: 'seata',
-                    text: '分布式事务解决方案',
-                    link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0'
+                    text: 'Seata企业版',
+                    link: 'https://www.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0',
                 }, {
-                    key: 'micoservice',
-                    text: '微服务解决方案',
-                    link: 'https://cn.aliyun.com/product/aliware/mse?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'msha',
-                    text: '高可用解决方案',
-                    link: 'https://www.aliyun.com/product/ahas?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'serverless',
-                    text: '微服务Serverless解决方案',
-                    link: 'https://cn.aliyun.com/product/aliware/sae?spm=seata-website.topbar.0.0.0'
-                },
-                {
-                    key: 'appas',
-                    text: 'PaaS解决方案',
-                    link: 'https://www.aliyun.com/product/edas?spm=seata-website.topbar.0.0.0'
-                }, {
-                    key: 'mesh',
-                    text: '服务网格解决方案',
-                    link: 'https://www.aliyun.com/product/servicemesh?spm=seata-website.topbar.0.0.0',
+                    key: 'sofa',
+                    text: 'SOFA分布式事务',
+                    link: 'https://help.aliyun.com/document_detail/132903.html?spm=seata-website.topbar.0.0.0',
                 }
                 ]
+            },
+            {
+                key: 'free',
+                text: '免费试用',
+                link: 'https://free.aliyun.com/?searchKey=nacos&spm=seata-website.topbar.0.0.0',
             },
             {
                 key: 'developers',
@@ -179,9 +173,9 @@ export default {
                 link: '/zh-cn/docs/developers/developers_dev.html',
             },
             {
-                key: 'SummerCode2022',
-                text: '开源之夏2022',
-                link: 'https://mp.weixin.qq.com/s/q6J-swbdWqZebuSiq2JDWg',
+                key: 'recruitment',
+                text: '团队招聘',
+                link: 'https://mp.weixin.qq.com/s/nvDmIJEuDaNEY3RfTA3UyA',
             },
             {
                 key: 'blog',
@@ -198,6 +192,16 @@ export default {
                 text: '下载',
                 link: '/zh-cn/blog/download.html',
             },
+            {
+                key: 'console',
+                text: '控制台样例',
+                link: 'http://demo.seata.io',
+            },
+            {
+                key: 'change',
+                text: ' ',
+                link: '/en-us/index.html',
+            }
         ],
         vision: {
             title: '愿景',
@@ -235,8 +239,16 @@ export default {
                     text: '社区',
                     link: '/zh-cn/community/index.html',
                 },
+                {
+                    text: '中文版',
+                    link: '/zh-cn/index.html',
+                },
+                {
+                    text: '英文版',
+                    link: '/en-us/index.html',
+                },
             ],
         },
-        copyright: 'Copyright © 2022 Seata',
+        copyright: 'Copyright © 2023 Seata',
     },
 };
